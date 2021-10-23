@@ -1,0 +1,122 @@
+[
+  {
+    "name": "breaking-change",
+    "description": "The issue or pull request documents or introduces a breaking change.",
+    "color": "#b60205"
+  },
+  {
+    "name": "bugfix",
+    "description": "The pull request fixes an incorrect functionality or behaviour.",
+    "color": "#e11d21"
+  },
+  {
+    "name": "build",
+    "description": "The pull request updates build configuration and scripts.",
+    "color": "#e7f0f7"
+  },
+  {
+    "name": "chore",
+    "description": "The pull request updates dependencies or configuration files.",
+    "color": "#ffdd44"
+  },
+  {
+    "name": "ci",
+    "description": "The pull request updates CI workflows.",
+    "color": "#e7f0f7"
+  },
+  {
+    "name": "docs",
+    "description": "The pull request updates comments or documentation.",
+    "color": "#e7f0f7"
+  },
+  {
+    "name": "feature",
+    "description": "The pull request implements new functionality.",
+    "color": "#007f4e"
+  },
+  {
+    "name": "future-release",
+    "description": "The pull request will be included in a future release.",
+    "color": "#00363d"
+  },
+  {
+    "name": "needs-changes",
+    "description": "The pull request needs additional changes before it can be merged.",
+    "color": "#f14728"
+  },
+  {
+    "name": "needs-discussion",
+    "description": "The issue or pull request needs more discussion before it can be closed or merged.",
+    "color": "#f14728"
+  },
+  {
+    "name": "needs-documentation",
+    "description": "The pull request needs additional documentation before it can be merged.",
+    "color": "#f14728"
+  },
+  {
+    "name": "needs-information",
+    "description": "The issue needs more information before it can be verified and resolved.",
+    "color": "#f14728"
+  },
+  {
+    "name": "needs-investigation",
+    "description": "The issue needs more investigation before it can be verified and resolved.",
+    "color": "#f14728"
+  },
+  {
+    "name": "needs-review",
+    "description": "The issue or pull request needs a review by a developer of the team.",
+    "color": "#f14728"
+  },
+  {
+    "name": "needs-testcase",
+    "description": "The issue or pull request relates to a feature that needs test coverage.",
+    "color": "#f14728"
+  },
+  {
+    "name": "next-release",
+    "description": "The pull request will be included in the next release.",
+    "color": "#6633cc"
+  },
+  {
+    "name": "on-hold",
+    "description": "The issue or pull request is not being worked on for the time being.",
+    "color": "#d2dae1"
+  },
+  {
+    "name": "performance",
+    "description": "The issue or pull request relates to performance.",
+    "color": "#007dc6"
+  },
+  {
+    "name": "refactor",
+    "description": "The pull request improves or enhances an existing implementation.",
+    "color": "#ff4a00"
+  },
+  {
+    "name": "regression",
+    "description": "The issue is a bug that relates to functionality known to work in previous releases.",
+    "color": "#e11d21"
+  },
+  {
+    "name": "security",
+    "description": "The issue documents functionality that could expose private data or cause harm otherwise.",
+    "color": "#b60205"
+  },
+  {
+    "name": "style",
+    "description": "The pull request ensures styleguide compliance.",
+    "color": "#e7f0f7"
+  },
+  {
+    "name": "test",
+    "description": "The issue or pull request is related to unit tests for testing individual elements.",
+    "color": "#7936a5"
+  },
+  {
+    "name": "wont-fix",
+    "description": "The issue is legitimate, but it is not something the team is currently able or willing to work on.",
+    "color": "#000000"
+  }
+]

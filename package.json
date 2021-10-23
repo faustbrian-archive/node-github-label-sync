@@ -1,0 +1,58 @@
+{
+  "name": "@faustbrian/node-github-label-sync",
+  "version": "1.0.0",
+  "description": "Synchronise GitHub labels via node.js",
+  "homepage": "https://github.com/faustbrian/node-github-label-sync",
+  "bugs": {
+    "url": "https://github.com/faustbrian/node-github-label-sync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faustbrian/node-github-label-sync.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": {
+    "name": "Brian Faust",
+    "email": "brian@faust.mx",
+    "url": "https://faust.mx"
+  },
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "ghls": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup source --format cjs,esm --dts-resolve",
+    "test": "jest",
+    "lint": "stdlint && deno fmt source",
+    "prepublishOnly": "pnpm run build"
+  },
+  "dependencies": {
+    "octokit": "^1.7.0",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@faustbrian/stdlint": "^1.0.0",
+    "@sindresorhus/tsconfig": "^2.0.0",
+    "@sucrase/jest-plugin": "^2.0.0",
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0",
+    "jest-extended": "^0.11.5",
+    "tsup": "^4.8.4",
+    "typescript": "^4.4.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
